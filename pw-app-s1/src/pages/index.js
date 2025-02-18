@@ -36,9 +36,9 @@ export default function Home() {
           />
           <ol>
             <li>
-              Get started by editing <code>src/pages/index.js</code>.
+              Projeto WEB <code>S1</code>.
             </li>
-            <li>Save and see your changes instantly.</li>
+            <li>MCTW</li>
           </ol>
 
           <div className={styles.ctas}>
