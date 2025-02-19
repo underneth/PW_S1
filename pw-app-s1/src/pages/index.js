@@ -38,7 +38,7 @@ export default function Home() {
             <li>
               Projeto WEB <code>S1</code>.
             </li>
-            <li>MCTW</li>
+            <li>MCTW - Git Sprint 1 </li>
           </ol>
 
           <div className={styles.ctas}>
