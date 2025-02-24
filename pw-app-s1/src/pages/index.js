@@ -1,16 +1,16 @@
-import Head from "next/head";
-import Image from "next/image";
-import { Geist, Geist_Mono } from "next/font/google";
-import styles from "@/styles/Home.module.css";
+import Head from 'next/head';
+import Image from 'next/image';
+import { Geist, Geist_Mono } from 'next/font/google';
+import styles from '@/styles/Home.module.css';
 
 const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+  variable: '--font-geist-sans',
+  subsets: ['latin'],
 });
 
 const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  variable: '--font-geist-mono',
+  subsets: ['latin'],
 });
 
 export default function Home() {
@@ -39,6 +39,8 @@ export default function Home() {
               Projeto WEB <code>S1</code>.
             </li>
             <li>MCTW - Git Sprint 1 </li>
+            <li> Teste de prettier</li> <li>maaisn um teste </li>
+
           </ol>
 
           <div className={styles.ctas}>
