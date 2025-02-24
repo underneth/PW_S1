@@ -1,5 +1,4 @@
-name: Correr testes
-
+run-name: ${{ github.actor }} está a testar as pipelines com Prettier
 on:
   push:
     branches:
@@ -26,3 +25,6 @@ jobs:
 
       - name: Run Prettier tests
         run: npm run format
+        
+      - name: Build the project and run tests
+        run: npm run build
