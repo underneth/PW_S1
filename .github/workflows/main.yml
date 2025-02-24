@@ -25,6 +25,13 @@ jobs:
 
       - name: Run Prettier tests
         run: npm run format
-        
+
       - name: Build the project and run tests
         run: npm run build
+
+      - name: Deploy to Netlify
+        id: netlify_deploy
+        run: npx netlify-cli deploy
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
