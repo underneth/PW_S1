@@ -25,4 +25,4 @@ jobs:
         run: npm install
 
       - name: Run Prettier tests
-        run: npm format
+        run: npm run format
