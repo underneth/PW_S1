@@ -6,8 +6,11 @@ on:
       - main
 
 jobs:
-  test:
+  run-defined-frontend-tests:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./pw-app-s1
 
     steps:
       - name: Checkout repository
