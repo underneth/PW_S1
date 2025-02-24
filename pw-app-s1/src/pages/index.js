@@ -40,7 +40,7 @@ export default function Home() {
             </li>
             <li>MCTW - Git Sprint 1 </li>
             <li> Teste de prettier</li> <li>maaisn um teste </li>
-
+            <li> Agora com Pipelines no GitHub</li> 
           </ol>
 
           <div className={styles.ctas}>
