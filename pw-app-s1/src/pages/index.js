@@ -48,6 +48,7 @@ export default function Home() {
             <li> Agora com Pipelines no GitHub</li>{' '}
             <li> Agora com Pipelines no GitHub</li>{' '}
             <li> Agora com Pipelines no GitHub</li>
+            <li> Nova</li>
           </ol>
 
           <div className={styles.ctas}>
